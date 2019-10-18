@@ -12,6 +12,36 @@ a {
   color: #87BAE9;
 }
 
+.header1 {
+  height: 200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header1 p {
+  font-size: 40px;
+  background-color: rgba(255, 255, 255, 0);
+  text-transform: uppercase;
+  margin: 0;
+  color: pink;
+}
+
+.menus ul li {
+  background-color: blue;
+  display: inline-block;
+  list-style-type: none;
+  padding: 6px 20px;
+}
+
+.menus ul {
+  width: 100%;
+  background-color: blue;
+}
+
 .container {
   padding: 25px;
 
